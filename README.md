@@ -2,7 +2,7 @@ Hi. :> Should be fine.
 
 Need OpenSSL installed.
 
-Create Build folder inside root folder and run "cmake .." (it'll give error :/)
+Create Build folder inside root folder and run "cmake .." (it'll most likely give error :/ if not you win :D)
 Inside the Build folder go to "CMakeCache.txt". Scroll down to "OPENSSL_INCLUDE_DIR:PATH=(some error)". Get <path\to\OpenSSL>\include and add that after the =.
 
 Now run "cmake ..", then "cmake --build ."
